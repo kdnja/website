@@ -1,4 +1,4 @@
-# Website
+# website
 
 this website includes all of my socials
 
