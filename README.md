@@ -1,5 +1,5 @@
 # website
 
-this website includes all of my socials
+includes information about me and where to find me
 
 inspired by [@aejb](https://github.com/aejb)'s website
