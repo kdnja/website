@@ -1,2 +1,2 @@
 # website
-inspired by @aejb's website
+inspired by [@aejb](https://github.com/aejb)'s website
