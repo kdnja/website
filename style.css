@@ -1,27 +1,40 @@
+/* General selectors */
 body {
     background-color: #3F4550;
     color: white; 
     font-family: 'Roboto Mono', monospace;
     font-size: large;
     font-weight: bold;
+    text-align: center;
 }
 p {
     text-align: center;
     font-size: large;
-    margin: 5px;
+    margin: 0 0 0 0;
 }
 h1 {
     text-align: center;
 }
-li {
-    list-style: none;
+h3 {
+    text-align: center;
+    margin-top: 22.5px;
+    margin-bottom: 22.5px;
 }
 a {
     color: inherit;
     text-decoration: none;
 }
+li {
+    list-style: none;
+}
+li::before {
+    position: absolute;
+    content: '';
+    left: -0.8em;
+    font-size: 0.1em;
+}
 
-
+/* Classes */
 .title {
     font-size: xx-large;
     font-weight: bolder;
@@ -29,14 +42,18 @@ a {
 }
 .kdn {
     background-color: #B18E93;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 .y {
     color: #EDDCBE;
 }
-
-
+.loading {
+    display: inherit !important;
+    height: 1.5em !important;
+    margin-top: 22.5px !important;
+    margin-bottom: 22.5px !important
+}
 .flex {
     display: -webkit-box;
     display: -moz-box;
@@ -54,7 +71,11 @@ a {
 .container > div {
     flex-grow: 1;
 }
-
+.name, .link {
+    padding: 0;
+    margin: 0 0.5em;
+    list-style: none;
+}
 .name {
     margin-left: auto;
     text-align: left;
@@ -62,4 +83,14 @@ a {
 .link {
     margin-right: auto;
     text-align: right;
+}
+.subtext {
+    font-size: small;
+}
+
+/* IDs */
+#icon {
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
 }
