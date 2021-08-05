@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/kdnja
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://kdn.pw
+  * I am kdnja (https://keybase.io/kdnja) on keybase.
+  * I have a public key ASAQC7ms5N7IwYzfEsyRE-gKuJlsTMOW_gLIRPlgTqLsrAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120100bb9ace4dec8c18cdf12cc9113e80ab8996c4cc396fe02c844f9604ea2ecac0a",
+      "host": "keybase.io",
+      "kid": "0120100bb9ace4dec8c18cdf12cc9113e80ab8996c4cc396fe02c844f9604ea2ecac0a",
+      "uid": "437d7ff46e17c841034d15a635f95519",
+      "username": "kdnja"
+    },
+    "merkle_root": {
+      "ctime": 1628146025,
+      "hash": "36ac292b71a2b2ce3db1d68ca5234b72e061d6f86375b48a0bda6fb036294b1721ffdf8dd85ddf24c03ad02690311e15244444ac55e93ecb3b3f08dbc4666820",
+      "hash_meta": "02ce554c75d31b18fd58f855dad46de950519305e7631be311c2f5fb53497794",
+      "seqno": 20509201
+    },
+    "service": {
+      "entropy": "xgDLKUdLyqbQ438mFjmShpli",
+      "hostname": "kdn.pw",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.7.0"
+  },
+  "ctime": 1628146038,
+  "expire_in": 504576000,
+  "prev": "549d7576a6157c02614c98a05378a0a2ad06d6beef72ef5b057dfa4d3d215b7a",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgEAu5rOTeyMGM3xLMkRPoCriZbEzDlv4CyET5YE6i7KwKp3BheWxvYWTESpcCCMQgVJ11dqYVfAJhTJigU3igoq0G1r7vcu9bBX36TT0hW3rEIJP7gFWftVOf2WlOd3S8gArKB8m2dSA6PTohVBQdnl2lAgHCo3NpZ8RAL/NA5HSmIOp8qQMlvPzAK3nF1ohbCPC9ry01IZYZ/hTUjhjabWxplD0C4ODlyWwZn7CRB7KHgaaW0nrAmLkcBahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJ6WT3adhagS/FZiCs7FJErlto0MlDmHsqt6UOlY5ItYo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kdnja
+
+==================================================================
