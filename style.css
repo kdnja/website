@@ -1,6 +1,6 @@
 /* General selectors */
 body {
-  background-color: #3f4550;
+  background-color: #31343a;
   color: white;
   font-family: "Roboto Mono", monospace;
   font-size: large;
@@ -41,12 +41,15 @@ li::before {
   padding: 1em;
 }
 .kdn {
-  background-color: #b18e93;
+  background-color: #f1a6b1;
   padding-left: 5px;
   padding-right: 5px;
 }
-.y {
-  color: #eddcbe;
+.yellow-orange {
+  color: #f7d7a0;
+}
+.orange {
+  color: rgb(255, 187, 131)
 }
 .loading {
   display: inherit !important;
@@ -71,8 +74,7 @@ li::before {
 .container > div {
   flex-grow: 1;
 }
-.name,
-.link {
+.name, .link {
   padding: 0;
   margin: 0 0.5em;
   list-style: none;
