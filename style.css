@@ -6,14 +6,10 @@ body {
 	font-size: large;
 	font-weight: bold;
 }
-p {
-	font-size: large;
-	margin: 0 0 0 0;
-}
 body,
-p,
 h1,
-h3 {
+h3,
+p {
 	text-align: center;
 }
 h3 {
@@ -42,55 +38,12 @@ li::before {
 	left: -0.8em;
 	font-size: 0.1em;
 }
-div > .flex {
-	padding-bottom: 1em;
+p {
+	font-size: large;
+	margin: 0.5em;
 }
 
 /* Classes */
-.title {
-	font-size: xx-large;
-	font-weight: bolder;
-	padding: 1em;
-}
-.kdn,
-.highlight {
-	border-radius: 5px;
-	color: #272635;
-	transition: ease 500ms;
-	border: 1px solid transparent;
-}
-.kdn {
-	background-color: #7aa2ff;
-	padding-left: 0.2em;
-	padding-right: 0.2em;
-}
-.highlight {
-	background-color: #eb6f77;
-	padding: 0 0.2em 0.2em 0.2em;
-}
-.kdn:hover,
-.highlight:hover {
-	transition: ease 200ms;
-}
-.highlight:hover {
-	border: 2px solid #f4b8bc;
-	padding: 0.1em 0.3em 0.3em 0.3em;
-}
-.kdn:hover {
-	border: 2px solid #adc6ff;
-	padding: 0.1em 0.3em 0.1em 0.3em;
-}
-.loading {
-	display: inherit;
-	margin-top: -6px;
-}
-.flex {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-}
 .container {
 	padding: 0;
 	margin: 0;
@@ -101,22 +54,67 @@ div > .flex {
 .container > div {
 	flex-grow: 1;
 }
-.name,
-.link {
-	padding: 0;
-	margin: 0 0.5em;
-	list-style: none;
+.flex {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
 }
-.name {
-	margin-left: auto;
-	text-align: left;
+.highlight {
+	background-color: #eb6f77;
+	padding: 0 0.2em 0.2em 0.2em;
+}
+.highlight:hover {
+	border: 2px solid #f4b8bc;
+	padding: 0.1em 0.3em 0.3em 0.3em;
+}
+.highlight,
+.kdn {
+	border-radius: 5px;
+	color: #272635;
+	transition: ease 500ms;
+	border: 1px solid transparent;
+}
+.highlight:hover,
+.kdn:hover {
+	transition: ease 200ms;
+}
+.kdn {
+	background-color: #7aa2ff;
+	padding-left: 0.2em;
+	padding-right: 0.2em;
+}
+.kdn:hover {
+	border: 2px solid #adc6ff;
+	padding: 0.1em 0.3em 0.1em 0.3em;
 }
 .link {
 	margin-right: auto;
 	text-align: right;
 }
+.link,
+.name {
+	padding: 0;
+	margin: 0 0.5em;
+	list-style: none;
+}
+.loading {
+	display: inherit;
+	margin-top: -6px;
+}
+.name {
+	margin-left: auto;
+	text-align: left;
+}
 .subtext {
-	font-size: small;
+	font-size: x-small;
+}
+.title {
+	font-size: xx-large;
+	font-weight: bolder;
+	margin: 2em;
+	padding: 0.5em;
 }
 
 /* IDs */
